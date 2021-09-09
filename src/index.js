@@ -4,8 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const name = "Jhorley";
+const el = <h1>Hello!, {name}</h1>
+
 ReactDOM.render(
-    <h1>Hello, React!</h1>,
+    el,
     document.getElementById('root')
 );
 
